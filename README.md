@@ -1,4 +1,4 @@
-<h1>Monitoring-JS - Novo Framework</h1>
+<h1>MonitoringJS - Novo Framework</h1>
 <hr>
 <h3>Onde usar</h3>
 <ul>

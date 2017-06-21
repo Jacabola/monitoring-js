@@ -2,10 +2,108 @@ html,body{
     padding: 0;
     margin: 0;
     height: 100%;
+    background: #ff9800;
 }
 
 header{
     width: 100%;
-    background: #FF8C00;
-    height: 100px;
+    height: 34px;
+    background: url(img/global-nav.png) repeat-x 0 bottom #1b1b1b;
+    border-bottom: 1px solid #ffcd8f;
+}
+
+section{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 50px;
+}
+
+.logo{
+    width: 90%;
+    height: 150px;
+    margin-left: 5%;
+    float: left;
+    background: url(img/logo.png) no-repeat;
+    background-size: 150px;
+}
+
+.container-geral{
+    width: 90%;
+    margin-left: 5%;
+    float: left;
+    box-shadow: 0 0 1px 2px rgba(0,0,0,0.4);
+    border-radius: 5px;
+    border-top: 0.5px solid #fff;
+}
+
+.container-menu{
+    border-radius: 5px 5px 0 0;
+    background: #D2691E;
+    width: 100%;
+    float: left;
+}
+
+.menu-nav{
+    list-style: none;
+    width: 100%;
+    float: left;
+}
+
+.menu-nav > li{
+    float: left;
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+} 
+
+.menu-nav > li:hover{
+    box-shadow: inset 0 0 2px 2px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+.menu-nav > li:active{
+    transform: scale(0.97);
+}
+
+.menu-nav > li > a{
+    text-decoration:none; 
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFF;
+    font-family: "klavika-web", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+}
+
+
+.container-banner{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 200px;
+    float: left;
+    background: url(img/dark-grey-tile.png);
+}
+
+.container-footer{
+    height: 50px;
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+    background: #D2691E;
+    float: left;
+    border-bottom: 0.2px solid #ededed;
+}
+
+.img-teste{
+    margin-left: 50px;
+    padding: 10px;
+    border: 1px solid transparent;
+}
+
+.img-teste:hover{
+    border: 1px solid #ededed;
+    cursor: pointer;
+}
+
+.img-teste:active{
+    transform: scale(0.9);
 }

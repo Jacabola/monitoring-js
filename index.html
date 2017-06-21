@@ -7,8 +7,39 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src="monitoring-js.js" type="text/javascript"></script>
         <link href="monitoring-js.css" rel="stylesheet" type="text/css"/>
+        <script>
+            $(function(){
+                $(document).monitoringJs({
+                    selector:{
+                        elementos : 'img#img-teste-01,img#img-teste-02'
+                    }
+                });
+            });
+        </script>
     </head>
     <body>
         <header></header>
+        <section>
+            <div class="logo"></div>
+            <div class="container-geral">
+                <div class="container-menu">
+                    <ul class="menu-nav">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#doc">Documentação</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="container-banner">
+                    <img src="http://blogac.me/wp-content/uploads/2015/10/Misc-Web-Database-icon.png" class="img-teste" width="100" id="img-teste-01">
+                    <img src="http://www.tmpropaganda.com.br/images/Activity-Monitor-icon.png" class="img-teste" width="100" id="img-teste-02">
+                    <img src="https://vocegestor.com/blog/wp-content/uploads/2015/03/monitorar-telefonia.png" class="img-teste" width="100" id="img-teste-03">
+                    <img src="http://www.jetskyseguranca.com/site/wp-content/uploads/2014/08/monitoramento_video.png" class="img-teste" width="100" id="img-teste-04">
+                </div>
+                <div class="container-footer">
+                    
+                </div>
+            </div>
+        </section>
     </body>
 </html>

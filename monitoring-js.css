@@ -1,0 +1,11 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    background: #FF8C00;
+    height: 100px;
+}
